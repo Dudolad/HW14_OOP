@@ -124,9 +124,12 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="HW14_OOP.cpp" />
-    <ClCompile Include="ZooException.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Animal.h" />
+    <ClInclude Include="Bird.h" />
+    <ClInclude Include="Fish.h" />
+    <ClInclude Include="Mammal.h" />
     <ClInclude Include="ZooException.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
