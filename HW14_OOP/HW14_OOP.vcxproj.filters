@@ -35,5 +35,8 @@
     <ClInclude Include="Mammal.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="Volyer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

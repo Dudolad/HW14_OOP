@@ -7,7 +7,7 @@ using namespace std;
 class Animal
 {
 protected:
-	std::string name;
+	string name;
 	bool predator;
 public:
     Animal(string n, bool p) : name(n), predator(p) {

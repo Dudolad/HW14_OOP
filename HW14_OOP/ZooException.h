@@ -28,6 +28,7 @@ public:
 
 class NameException : public ZooException
 {
+public:
 	string showMessage() const override {
 		return "Неможливо створити тварину - не вказана назва";
 	}
